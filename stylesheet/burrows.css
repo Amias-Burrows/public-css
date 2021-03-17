@@ -1,3 +1,186 @@
-.nav .nav-image img {
+		/*Body*/
+
+body {
+	margin: 0px;
+}
+
+		/*Nav bar*/
+	/*Nav brand*/
+
+nav .logo img {
 	width: 20px;
 }
+
+nav .name {
+	text-decoration: none;
+	color: grey;
+}
+
+	/*Nav color*/
+
+nav.dark-opaque {
+	background-color: hsla(0, 0%, 0%, 0.5);
+	color: hsla(360, 100%, 100%, 1);
+}
+
+nav.dark {
+	background-color: hsla(0, 0%, 22%, 1);
+	color: hsla(360, 100%, 100%, 1);
+}
+
+nav.light-opaque {
+	background-color: hsla(360, 100%, 100%, 0.5);
+}
+
+nav.light {
+	background-color: hsla(360, 100%, 100%, 1);
+}
+
+	/*Nav items*/
+
+nav * {
+	text-decoration: none;
+	color: hsla(360, 100%, 100%, 1);
+}
+
+nav ul li {
+	display: inline;
+	margin: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li.dropdown-link {
+	cursor: pointer;
+}
+
+nav ul ul.dropdown-list {
+	display: none;
+}
+
+nav.nav-float {
+	margin: 8px;
+}
+
+nav.nav-solid {
+	margin: 0px;
+}
+
+		/* Grid */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	text-align: center;
+}
+
+.item-sz1-srt1 {
+	grid-column: 1;
+}
+
+.item-sz1-srt2 {
+	grid-column: 2;
+}
+
+.item-sz1-srt3 {
+	grid-column: 3;
+}
+
+.item-sz1-srt4 {
+	grid-column: 4;
+}
+
+.item-sz1-srt5 {
+	grid-column: 5;
+}
+
+.item-sz1-srt6 {
+	grid-column: 6;
+}
+
+.item-sz2-srt1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.item-sz2-srt2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.item-sz2-srt3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.item-sz2-srt4 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
+.item-sz2-srt5 {
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+
+.item-sz3-srt1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.item-sz3-srt2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.item-sz3-srt3 {
+	grid-column-start: 3;
+	grid-column-start: 5;
+}
+
+.item-sz3-srt4 {
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+.item-sz4-srt1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.item-sz4-srt2 {
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+.item-sz4-srt3 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+
+.item-sz5-srt1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.item-sz5-srt2 {
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+.item-whole {
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+		/*Containers*/
+	/*Article*/
+
+article.
+
+	/*Section*/
+
+
+	/*
