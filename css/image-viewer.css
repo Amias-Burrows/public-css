@@ -1,0 +1,44 @@
+#close-up {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: hsla(0, 0%, 0%, 0.7);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#alert-box {
+	z-index: 10;
+	position: fixed;
+	bottom: 1vh;
+	left: 10vw;
+	width: 80vw;
+	height: 10vh;
+	background-color: hsla(210, 31%, 11%, 0.8);
+	border-radius: 1vw;
+	text-align: center;
+}
+
+.alert-show {
+	animation-name: alert;
+	animation-duration: 5s;
+}
+
+@keyframes alert {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 100%;
+	}
+	80% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+	}
+}
