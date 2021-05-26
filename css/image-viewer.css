@@ -1,14 +1,26 @@
 #close-up {
+	z-index: 9;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
 	background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+#close-up-div {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#close-up-img {
+	width: 70%;
+	height: auto;
 }
 
 #alert-box {
@@ -40,5 +52,11 @@
 	}
 	100% {
 		opacity: 0%;
+	}
+}
+
+@media (min-width: 768px) {
+	#close-up-img {
+		width: 50%;
 	}
 }

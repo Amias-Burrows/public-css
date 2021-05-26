@@ -3,15 +3,18 @@ div.id = "close-up";
 div.addEventListener('click', function() { div.remove() });
 
 let alert = true;
-div.addEventListener('load', function() { imageAlert() });
+
+let container = document.createElement('div');
+container.id = "close-up-div";
 
 let img = document.createElement('img');
 img.id = "close-up-img";
 
 let alt = document.createElement('p');
 
-div.appendChild('alt');
-div.appendChild('img');
+container.appendChild(alt);
+container.appendChild(img);
+div.appendChild(container);
 
 let body = document.getElementsByTagName('body')[0];
 let image = document.querySelectorAll('img');
